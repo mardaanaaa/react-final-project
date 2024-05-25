@@ -4,7 +4,6 @@ import {useNavContext} from "./context";
 const withActiveNav = (Component) => {
     return (props) => {
         const { activeNav, setActiveNav } = useNavContext();
-
         return (
             <Component
                 {...props}

@@ -3,7 +3,6 @@ import { createStore } from 'redux';
 const initialState = {
     activeNav: '#home',
 };
-
 const reducer = (state = initialState, action) => {
     switch (action.type) {
         case 'SET_ACTIVE_NAV':

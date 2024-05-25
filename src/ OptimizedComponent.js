@@ -2,7 +2,6 @@ import React, { useMemo } from 'react';
 
 const HeavyComponent = ({ data }) => {
     const computedData = useMemo(() => {
-        // Дорогая вычислительная функция
         return data.map(item => item * 2);
     }, [data]);
 

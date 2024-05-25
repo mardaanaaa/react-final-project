@@ -5,7 +5,6 @@ import { RiServiceLine } from 'react-icons/ri';
 import { useNavContext } from '../context';
 import './topbar.css';
 import withActiveNav from '../withActiveNav';
-
 import NavRenderProps from '../NavRenderProps';
 
 const Topbar = () => {
